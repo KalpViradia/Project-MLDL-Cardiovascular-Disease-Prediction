@@ -166,6 +166,15 @@ def apply_theme_css(theme):
         div[data-testid="stMetricLabel"] {
             color: #000000 !important;
         }
+
+        /* 5. Additional Metrics Text (Force Dark in Light Mode) */
+        .additional-metrics-content p, 
+        .additional-metrics-content li, 
+        .additional-metrics-content span,
+        .additional-metrics-content strong,
+        .additional-metrics-content div {
+            color: #000000 !important;
+        }
         """
     else:
         primary_color = "#4CAF50"   # Lighter Green for dark mode
