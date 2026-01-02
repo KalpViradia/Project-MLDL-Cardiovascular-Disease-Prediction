@@ -311,6 +311,8 @@ def apply_theme_css(theme):
 
     st.markdown(f"""
     <style>
+    /* THEME_VERSION = 2.1 */ 
+    
     :root {{
         --primary-color: {primary_color};
         --background-color: {bg_color};
