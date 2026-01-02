@@ -197,8 +197,6 @@ Main Python dependencies (see `requirements.txt`):
 
 - numpy
 - pandas
-- matplotlib
-- seaborn
 - scikit-learn
 - streamlit
 - joblib
